@@ -22,6 +22,10 @@ body {
   line-height: 1.6;
 }
 
+a {
+  color: #1fabe5;
+}
+
 /*HEADER CONTENT*/
 #site_header {
   background-color: #ff8523;
@@ -97,6 +101,12 @@ form div {
 
 form label {
   font-weight: bold;
+}
+
+input[type='text'] {
+  height: 35px;
+  width: 150px;
+  margin-right: 15px;
 }
 
 .name {
