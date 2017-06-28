@@ -13,13 +13,6 @@ colors:
     dark blue - #046c97
 */
 
-
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-
 /*GENERAL STYLING*/
 body {
   padding: 0;
@@ -64,6 +57,7 @@ nav a {
 #page_content section:nth-child(2) {
   border-top: 3px solid #eee;
   border-bottom: 3px solid #eee;
+  padding-bottom: 25px;
 }
 
 /*TABLE ELEMENTS*/
@@ -119,11 +113,14 @@ form label {
 
 #submit_button {
   color: white;
+  border: #1fabe5 solid 1px;
   background-color: #1fabe5;
   border-radius: 3px;
   padding: 10px;
+  text-transform: uppercase;
 }
 
-#submit_button:focus {
-  outline: none;
+textarea {
+  padding: 5px;
+  border: #1fabe5 solid 1px;
 }
