@@ -12,3 +12,118 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/*GENERAL STYLING*/
+body {
+  padding: 0;
+  margin: 0;
+  border: yellow solid 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/*HEADER CONTENT*/
+#site_header {
+  background-color: #ff8523;
+  padding: 20px;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 32px;
+  font-weight: bold;
+}
+
+/*PAGE CONTENT*/
+#page_content {
+  padding-left: 10px;
+}
+
+#page_content h2, h3 {
+  color: #1fabe5;
+}
+
+#page_content ul li {
+  font-weight: bold;
+}
+
+#page_content section:nth-child(2) {
+  border-top: 3px solid #eee;
+  border-bottom: 3px solid #eee;
+}
+
+/*TABLE ELEMENTS*/
+table {
+  border: 1px #1fabe5 solid;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+table thead td {
+  background-color: #1fabe5;
+  color: white;
+  border: 1px #046c97 solid;
+}
+
+table td {
+  padding: 10px;
+  margin: 0;
+  border: 1px #1fabe5 solid;
+}
+
+td img {
+  height: 70px;
+  width: auto;
+}
+
+/*FORM ELEMENTS*/
+form {
+  background-color: #dddddd;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+form div {
+  margin: 15px 0;
+}
+
+form label {
+  font-weight: bold;
+}
+
+.name {
+  background-color: #ff8523;
+  border-radius: 3px;
+  padding: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+#bio {
+  margin-top: 10px;
+}
+
+#submit_button {
+  color: white;
+  background-color: #1fabe5;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+#submit_button:focus {
+  outline: none;
+}
